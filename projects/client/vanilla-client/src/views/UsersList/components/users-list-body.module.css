@@ -1,0 +1,87 @@
+.users-list-body-header-title {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.users-list-body-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.users-list-body {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.users-list-body-footer {
+	height: 84px;
+}
+
+.users-list-body-footer-inner {
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+	flex-grow: 1;
+}
+
+.search-input {
+	width: auto;
+	margin: 32px 8px;
+}
+
+.users-list-header-search-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.user-card-emphasis {
+	font-weight: 600;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgb(176, 30, 30);
+}
+
+.users-list-card-flare {
+	float: right;
+	opacity: 0;
+	height: 0px;
+	transition: all 0.2s;
+}
+
+.users-list-card-flare-hover {
+	visibility: visible;
+	opacity: 1;
+	height: 24px;
+}
+
+@media (max-width: 586px) {
+	.users-list-body-header {
+		flex-direction: column;
+	}
+
+	.users-list-body-header-title {
+		margin: 8px;
+	}
+
+	.search-input {
+		margin: 8px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.users-list-header-spacer {
+		width: 0px;
+		flex-basis: 0;
+	}
+
+	.users-list-header-search {
+		flex-grow: 1;
+	}
+}

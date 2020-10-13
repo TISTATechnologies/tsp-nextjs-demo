@@ -1,0 +1,52 @@
+.user-profile {
+	position: relative;
+	background-color: white;
+	border-radius: 7px;
+	transition: box-shadow 0.3s;
+	box-shadow: none;
+	width: 100%;
+	max-width: 1044px;
+	height: 100%;
+	margin: auto;
+	padding: 12px;
+	overflow: hidden;
+	box-shadow: 0 2px 7px 3px rgba(13, 13, 13, 0.06);
+}
+
+.user-profile-avatar {
+	border-radius: 50%;
+	width: 280px;
+	height: 280px;
+	margin: 20px auto 12px auto;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.user-profile-contents {
+	margin: auto;
+	width: 50%;
+}
+.user-profile-contents > h2 {
+	margin: auto;
+	text-align: center;
+}
+
+.user-profile-input {
+	width: 100%;
+}
+
+.user-profile-input-container {
+	flex-grow: 0;
+	min-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+
+.user-profile-input-container-footer {
+	min-width: 400px;
+	display: flex;
+	justify-content: space-between;
+}

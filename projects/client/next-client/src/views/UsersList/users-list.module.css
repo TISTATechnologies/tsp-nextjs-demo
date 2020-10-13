@@ -1,0 +1,14 @@
+.users-list {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	overflow: auto;
+}
+
+.users-list-infinite-scroll-container {
+	flex-grow: 1;
+	overflow-y: scroll;
+	height: calc(100% - 47px);
+	scrollbar-width: none;
+	padding: 5% 10% 0% 10%;
+}
